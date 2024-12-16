@@ -1,40 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IconsVault</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>IconsVault</h1>
+    <div class="container">
+        <header>
+            <h1>IconsVault - AkiraDev</h1>
+        </header>
+        
+        <div class="icons-wrapper">
+            <div id="icons-container" class="icons-container"></div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#icons">Ícones</a></li>
-                <li><a href="#guide">Guias</a></li>
-                <li><a href="#packages">Pacotes</a></li>
-                <li><a href="#showcase">Mostra</a></li>
-                <li><a href="license.html">Licença</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <input type="text" placeholder="Pesquisar ícones...">
-        <div class="filters">
-            <button>Social</button>
-            <button>Interface</button>
-            <button>Acessibilidade</button>
-        </div>
-        <div class="icon-grid">
-            <!-- Ícones serão carregados aqui -->
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2023 IconsVault</p>
-    </footer>
+        
+        <footer style="text-align: center; margin-top: 20px; font-size: 14px; color: #555;">
+            Desenvolvido com ❤️ por <strong>AkiraDev</strong>
+          </footer>
+    </div>
+    
+    <div id="copy-options" style="display: none;">
+        <button id="copy-svg">Copiar como SVG</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
