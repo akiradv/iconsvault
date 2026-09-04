@@ -1,12 +1,25 @@
 # IconsVault
 
-IconsVault é uma aplicação web desenvolvida para facilitar a visualização e cópia de ícones em formato SVG. O projeto foi criado por AkiraDev e é uma ferramenta útil para desenvolvedores e designers que precisam de ícones de forma rápida e prática.
+Um cofre de ícones SVG moderno, rápido e personalizável, desenvolvido com HTML, CSS e JavaScript puro (Vanilla).
+
+Atualizado em setembro de 2026.
 
 ## Funcionalidades
 
-- Visualização de ícones em uma interface amigável.
-- Opção de copiar ícones no formato SVG.
-- Design responsivo que se adapta a diferentes tamanhos de tela.
+- Personalização em tempo real: altere cor, tamanho e espessura do traço dos ícones instantaneamente.
+- Multi-biblioteca: acesso a centenas de ícones de Lucide, Tabler, Phosphor, Heroicons, Remix, Material Design e Fluent UI.
+- Modo escuro e claro com persistência automática via localStorage.
+- Atalhos de teclado: Esc para fechar o modal, / ou Ctrl+K para focar na busca.
+- Filtros por biblioteca com contadores dinâmicos.
+- Código SVG formatado e indentado ao copiar, pronto para uso em projetos.
+- Download direto de ícones em formato .svg.
+- Alta performance: renderização otimizada com DocumentFragment, sem lag e sem dependências de frameworks.
+- Design responsivo e adaptável a diferentes tamanhos de tela.
+
+## Tecnologias
+
+- HTML5, CSS3, JavaScript.
+- Iconify API para busca e entrega dos SVGs
 
 ## Como Usar
 
@@ -14,12 +27,12 @@ Acesse o site **IconsVault** e utilize as ferramentas diretamente, sem necessida
 
 - [Clique Aqui](https://akiradv.github.io/iconsvault).
 
+## Estrutura do projeto
 
-## Tecnologias Utilizadas
-
-- HTML5
-- CSS3
-- JavaScript
+- `index.html` - estrutura principal da aplicação
+- `style.css` - estilos e temas (claro/escuro)
+- `script.js` - lógica de renderização, personalização e interações
+- `icons.js` - catálogo de ícones das bibliotecas suportadas
 
 ## Contribuição
 
@@ -27,9 +40,8 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 ## Licença
 
-Este projeto está licenciado sob a MIT License. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Contato
-
+Desenvolvido por AkiraDev. 
 Para mais informações, entre em contato com AkiraDev:
 - GitHub: [AkiraDev](https://github.com/akiradv)
